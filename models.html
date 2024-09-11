@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modèles de CV et Lettres de Motivation - CV Pro Sénégal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Styles spécifiques pour les images de modèles */
+        .model-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .model-item {
+            flex: 1 1 calc(50% - 40px); /* Deux colonnes avec un espacement */
+            max-width: calc(50% - 40px); /* Limiter la largeur maximale */
+            margin: 10px;
+        }
+
+        .model-item img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsivité */
+        @media (max-width: 768px) {
+            .model-item {
+                flex: 1 1 100%; /* Un seul modèle par ligne sur petits écrans */
+                max-width: 100%;
+            }
+        }
+
+        .model-title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CV Pro Sénégal</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="models.html">Modèles</a>
+            <a href="payment.html">Paiement</a>
+        </nav>
+    </header>
+
+    <section id="models">
+        <h2 class="model-title">Nos Modèles de CV</h2>
+        <div class="model-gallery">
+            <div class="model-item">
+                <img src="images/cv-model-1.png" alt="Modèle de CV 1">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-2.png" alt="Modèle de CV 2">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-3.png" alt="Modèle de CV 3">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-4.png" alt="Modèle de CV 4">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-5.png" alt="Modèle de CV 5">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-6.png" alt="Modèle de CV 6">
+            </div>
+            <div class="model-item">
+                <img src="images/cv-model-7.png" alt="Modèle de CV 7">
+            </div>
+        </div>
+
+        <h2 class="model-title">Nos Modèles de Lettres de Motivation</h2>
+        <div class="model-gallery">
+            <div class="model-item">
+                <img src="images/lm-model-1.png" alt="Modèle de Lettre de Motivation 1">
+            </div>
+            <div class="model-item">
+                <img src="images/lm-model-2.png" alt="Modèle de Lettre de Motivation 2">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CV Pro Sénégal. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

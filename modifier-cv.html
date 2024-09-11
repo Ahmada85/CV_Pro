@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier CV - CV Pro Sénégal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CV Pro Sénégal</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="models.html">Modèles</a>
+            <a href="payment.html">Paiement</a>
+        </nav>
+    </header>
+
+    <section id="edit-cv">
+        <h2>Modifier votre CV</h2>
+        <p>Personnalisez le texte ci-dessous pour mettre à jour votre CV en temps réel.</p>
+
+        <form id="cvForm">
+            <label for="name">Nom et Prénom :</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom">
+
+            <label for="job">Poste recherché :</label>
+            <input type="text" id="job" name="job" placeholder="Entrez le poste recherché">
+
+            <label for="phone">Téléphone :</label>
+            <input type="text" id="phone" name="phone" placeholder="Entrez votre numéro de téléphone">
+
+            <label for="email">Email :</label>
+            <input type="text" id="email" name="email" placeholder="Entrez votre email">
+
+            <label for="address">Adresse :</label>
+            <input type="text" id="address" name="address" placeholder="Entrez votre adresse">
+
+            <button type="button" onclick="updateCV()">Mettre à jour le CV</button>
+        </form>
+
+        <!-- Affichage du modèle de CV -->
+        <div id="cvDisplay">
+            <h2 id="displayName">Nom et Prénom</h2>
+            <p id="displayJob">Poste recherché</p>
+            <p id="displayPhone">Téléphone : 000 000 000</p>
+            <p id="displayEmail">Email : example@example.com</p>
+            <p id="displayAddress">Adresse : Adresse actuelle</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CV Pro Sénégal. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

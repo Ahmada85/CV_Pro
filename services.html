@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - CV Pro Sénégal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Styles généraux pour la page des services */
+        #services {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .service {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            max-width: 100%;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .service h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .service p {
+            font-size: 1em;
+            color: #666;
+            margin: 0;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .service {
+                padding: 15px;
+            }
+
+            .service h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CV Pro Sénégal</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="models.html">Modèles</a>
+            <a href="payment.html">Paiement</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        
+        <div class="service">
+            <img src="images/professional-cv.jpg" alt="CV Professionnel">
+            <h3>CV Professionnel</h3>
+            <p>Design moderne pour un impact maximal.</p>
+            <p class="price">2 000 FCFA</p>
+        </div>
+
+        <div class="service">
+            <img src="images/canadian-cv.jpg" alt="CV Canadien">
+            <h3>CV Canadien</h3>
+            <p>Format optimal pour le marché canadien.</p>
+            <p class="price">4 000 FCFA</p>
+        </div>
+
+        <div class="service">
+            <img src="images/motivation-letter.jpg" alt="Lettre de Motivation">
+            <h3>Lettre de Motivation</h3>
+            <p>Lettre concise et percutante pour votre candidature.</p>
+            <p class="price">1 000 FCFA</p>
+        </div>
+
+        <div class="service">
+            <img src="images/cv-pack.jpg" alt="Pack CV + Lettre de Motivation">
+            <h3>Pack CV + Lettre de Motivation</h3>
+            <p>Ensemble complet pour une candidature réussie.</p>
+            <p class="price">3 000 FCFA</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CV Pro Sénégal. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

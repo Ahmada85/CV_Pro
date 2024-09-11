@@ -1,0 +1,69 @@
+/* Style général */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #e1ecf4;
+    padding: 50px;
+    text-align: center;
+}
+
+#hero h2 {
+    color: #0073e6;
+    font-size: 2.5em;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.service h3 {
+    color: #0073e6;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

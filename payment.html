@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement - CV Pro Sénégal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Styles spécifiques pour la page de paiement */
+        #payment-methods {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+        }
+
+        .payment-option {
+            margin: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .payment-option img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .payment-option h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .payment-option p {
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .payment-option {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CV Pro Sénégal</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="models.html">Modèles</a>
+            <a href="payment.html">Paiement</a>
+        </nav>
+    </header>
+
+    <section id="payment-methods">
+        <div class="payment-option">
+            <h3>Paiement via Orange Money</h3>
+            <img src="images/orange-money-qr.png" alt="QR Code Orange Money">
+            <p>Scannez ce code QR pour payer via Orange Money. Vous pouvez également envoyer le montant directement à ce numéro : +221 78 113 42 21.</p>
+        </div>
+
+        <div class="payment-option">
+            <h3>Paiement via Wave</h3>
+            <img src="images/wave-qr.png" alt="QR Code Wave">
+            <p>Scannez ce code QR pour payer via Wave. Vous pouvez également envoyer le montant directement à ce numéro : +221 78 113 42 21.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CV Pro Sénégal. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

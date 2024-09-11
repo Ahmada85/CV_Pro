@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Lettre de Motivation - CV Pro Sénégal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CV Pro Sénégal</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="models.html">Modèles</a>
+            <a href="payment.html">Paiement</a>
+        </nav>
+    </header>
+
+    <section id="edit-lm">
+        <h2>Modifier votre Lettre de Motivation</h2>
+        <p>Personnalisez la lettre ci-dessous selon vos besoins.</p>
+
+        <form id="lmForm">
+            <label for="name">Nom et Prénom :</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom">
+
+            <label for="company">Nom de l'entreprise :</label>
+            <input type="text" id="company" name="company" placeholder="Entrez le nom de l'entreprise">
+
+            <label for="position">Poste recherché :</label>
+            <input type="text" id="position" name="position" placeholder="Entrez le poste recherché">
+
+            <label for="motivation">Motivation :</label>
+            <textarea id="motivation" name="motivation" placeholder="Exprimez votre motivation"></textarea>
+
+            <button type="button" onclick="updateLM()">Mettre à jour la Lettre</button>
+        </form>
+
+        <!-- Affichage du modèle de Lettre de Motivation -->
+        <div id="lmDisplay">
+            <h2 id="displayName">Nom et Prénom</h2>
+            <p id="displayCompany">Nom de l'entreprise</p>
+            <p id="displayPosition">Poste recherché</p>
+            <p id="displayMotivation">Exprimez votre motivation ici...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 CV Pro Sénégal. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/scripts-lm.js"></script>
+</body>
+</html>
